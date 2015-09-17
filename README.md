@@ -1,4 +1,4 @@
-# UBootBinaryCreator
+# UBootMdParser
 This is a script written in python which will allow a user to parse a memory dump from U-Boot and create a binary from it
 
 Format: python2 -i inputfile -o outputfile
