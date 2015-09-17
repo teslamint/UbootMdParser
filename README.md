@@ -1,7 +1,7 @@
 # UBootBinaryCreator
 This is a script written in python which will allow a user to parse a memory dump from U-Boot and create a binary from it
 
-Format: python2 -i <inputfile> -o <outputfile>
+Format: python2 -i inputfile -o outputfile
 
 Step 1: Connect to the specific device over UART or another serial interface and make sure the session is saved to a text file
 
