@@ -31,7 +31,7 @@ def timeToParse(input, output):
 		hextoParse = line[10:18] + line[19:27] + line[28:36] + line[37:45]
 		#hextoParse.replace(' ','')
 		print hextoParse
-		b_s = binascii.unhexlify(hextoParse)
+		b_s = binascii.unhexlify(''.join(hextoParse.split()))
 		outfile.write(b_s)
 	outfile.close()
 	f.close()
