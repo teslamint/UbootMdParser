@@ -28,7 +28,7 @@ def timeToParse(input, output):
 		line = f.readline()
 		if not line: break
 		print line[0:9]
-		hextoParse = line[10:18] + line[19:27] + line[28:36] + line[37:45]
+		hextoParse = line[10:18] + line[19:27] + line[28:36] + line[37:45] + line[46:57]
 		#hextoParse.replace(' ','')
 		print hextoParse
 		b_s = binascii.unhexlify(''.join(hextoParse.split()))
